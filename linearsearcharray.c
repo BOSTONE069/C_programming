@@ -4,23 +4,23 @@
 int main ()
 {
 	int number_array[6];
-	
+
 	int i;
-	
+
 	int search_number;
-	
-	 
+
+
 	printf("Please Enter number of the arrays");
-	
-	for (i=0; i<6; i++)
+
+	for (i = 0; i < 6; i++)
 	{
 		scanf("%d", &number_array[i]);
 	}
-	
+
 	printf("\nWhich element to search for=");
 	scanf("%d", &search_number);
-	
-	for (i=0; i<6; i++)
+
+	for (i = 0; i < 6; i++)
 	{
 		if (number_array[i]==search_number)
 		{
@@ -28,6 +28,6 @@ int main ()
 			return (0);
 		}
 	}
-	
+
 	printf("Element is not present in the array\n");
 }

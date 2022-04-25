@@ -8,12 +8,12 @@ int main () //This is the system defines function
 {
 	float radius;
 	float area;
-	
+
 	printf("Enter Circle Radious:\n");
 	scanf("%f", &radius);
-	
+
 	area = carea(radius); // This is the call for the user defined function
-	
+
 	printf("\nArea of a circle:%f",area);
 }
 

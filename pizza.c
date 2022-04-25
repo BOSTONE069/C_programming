@@ -17,8 +17,8 @@ int main ()
         printf("enter as &XX.XX \n");
         scanf("$%f", &cost);
 
-        //The pizza topping is a string, so your scanf doesnt need an & 
-        
+        //The pizza topping is a string, so your scanf doesnt need an &
+
         printf("What is your favorite one-word pizza topping?\n");
         scanf(" %s", topping);
 

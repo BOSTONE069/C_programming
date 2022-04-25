@@ -5,10 +5,10 @@
 void case1()
 {
 	char ch;
-	
+
 	printf("Enter the Upper or lower case charater:\n");
 	scanf("%c", &ch);
-	
+
 	if (ch >=65 && ch <=90)
 	{
 		printf("The character %c is in Uppercase\n", ch);
@@ -21,7 +21,7 @@ void case1()
 	{
 		printf("The character is invalid");
 	}
-	
+
 }
 
 int main()
