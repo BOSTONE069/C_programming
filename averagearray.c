@@ -4,7 +4,7 @@
 int main ()
 {
 	int number_array[6];
-	
+
 	int i;
 	
 	float Average;
