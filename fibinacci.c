@@ -9,11 +9,11 @@ int fibonacci()
 	int z;
 	int i;
 	int number;
-	
+
 	printf("Enter the number:\n");
 	scanf("%d", &number);
 	printf("\n%d,%d,", x,y);
-	
+
 	for (i=2; i<=number; ++i)
 	{
 		z = x+y;

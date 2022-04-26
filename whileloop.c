@@ -1,5 +1,5 @@
 #include <stdio.h>
- 
+
 int main () {
 
    /* local variable definition */
@@ -10,6 +10,6 @@ int main () {
       printf("value of a: %d\n", a);
       a++;
    }
- 
+
    return 0;
 }
