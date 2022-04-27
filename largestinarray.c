@@ -9,29 +9,29 @@ int main ()
 
 	int search_number;
 
-	int smallest_element_index;
+	int largest_number;
 
-	int smallest;
+	int largest_element_index = -1;
 
-	printf("Please Enter number of the arrays:\n");
+	printf("Please Enter number of the arrays");
 
 	for (i=0; i<6; i++) // Allows The users to enter the values of array
 	{
 		scanf("%d", &number_array[i]);
 	}
 
-	smallest = number_array[0];
+	largest_number = number_array[0];
 
 	for (i=0; i < 6; i++) //This interates through the array to find the smallest
 	{
-		if (number_array[i] < smallest)
+		if (number_array[i] > largest_number)
 		{
-			smallest = number_array[i];
-			smallest_element_index = i;
+			largest_number = number_array[i];
+			largest_element_index = i;
 		}
 	}
 
-	printf("\nthe smallest element is: %d\n",smallest);
+	printf("\nThe largest element is: %d and the index is %d", largest_number,largest_element_index);
 
 	return(0);
 
