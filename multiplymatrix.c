@@ -4,7 +4,7 @@ int main()
 {
     int matrixA[12][12], matrixB[12][12], matrixC[12][12];
 
-    int i, j, row, column;
+    int i, j, row, column, sum = 0, k;
 
     printf("Enter the number of rows and columns for the matrix:\n");
     scanf("%d%d", &row, &column);
@@ -47,16 +47,20 @@ int main()
         printf("\n");
     }
 
-    // To add diagonal elements
+    // To multiply the elements
     for (i = 0; i < row; i++)
     {
         for (j = 0; j < column; j++)
         {
-            matrixC[i][j] = matrixA[i][j] * matrixB[i][j];
+            for (k = 0; k < column; k++)
+            {
+                sum = sum + matrixA[i][k] * matrixB[k][j];
+            }
+            matrixC[i][j] = sum;
         }
     }
 
-    printf("Matrix addition result is:\n");
+    printf("Matrix multiplication result is:\n");
     for (i = 0; i < row; i++)
     {
         for (j = 0; j < column; j++)
