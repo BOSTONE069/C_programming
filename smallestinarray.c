@@ -9,11 +9,11 @@ int main ()
 
 	int search_number;
 
+	int smallest_element_index;
+
 	int smallest;
 
-	int smallest_element_index = -1;
-
-	printf("Please Enter number of the arrays");
+	printf("Please Enter number of the arrays:\n");
 
 	for (i=0; i<6; i++) // Allows The users to enter the values of array
 	{
@@ -31,7 +31,7 @@ int main ()
 		}
 	}
 
-	printf("\nthe smallest element is: %d and the index is %d",smallest,smallest_element_index);
+	printf("\nthe smallest element is: %d\n",smallest);
 
 	return(0);
 
