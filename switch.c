@@ -1,5 +1,7 @@
+// This is a program for showing the use of switch case
+
 #include <stdio.h>
- 
+
 int main () {
 
    /* local variable definition */
@@ -22,8 +24,8 @@ int main () {
       default :
          printf("Invalid grade\n" );
    }
-   
+
    printf("Your grade is  %c\n", grade );
- 
+
    return 0;
 }

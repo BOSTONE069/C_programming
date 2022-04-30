@@ -1,3 +1,5 @@
+//This is a program for multiplication of 2D mattrix
+
 #include <stdio.h>
 
 int main()

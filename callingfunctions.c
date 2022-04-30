@@ -1,3 +1,5 @@
+//This is a program for finding the sum by calling the sum function
+
 #include <stdio.h>
 #include "main.h"
 

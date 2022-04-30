@@ -1,4 +1,4 @@
-//This program finds the sum of the digranls in a matrix
+//This program finds the sum of the diagonal of numbers in a matrix
 #include <stdio.h>
 
 void main()

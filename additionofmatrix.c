@@ -1,3 +1,4 @@
+// This is a program for performing addition of matrix
 #include <stdio.h>
 
 int main()
@@ -56,7 +57,7 @@ int main()
         }
     }
 
-    printf("Matrix addition result is:\n");
+    printf("Matrix addition result is:\n"); // This is to print the addition matrix
     for (i = 0; i < row; i++)
     {
         for (j = 0; j < column; j++)

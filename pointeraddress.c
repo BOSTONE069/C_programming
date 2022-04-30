@@ -1,3 +1,5 @@
+//This is a program for printing the pointers address and it values
+
 #include <stdio.h>
 
 /**
