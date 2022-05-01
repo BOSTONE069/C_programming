@@ -1,3 +1,5 @@
+//This is the program for printing the size of the pointers
+
 #include <stdio.h>
 
 /**
