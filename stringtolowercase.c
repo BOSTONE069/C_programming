@@ -11,7 +11,7 @@ int main()
     printf("Please ennter the string to be converted:\n");
     scanf("%s", str);
 
-    for (i = 0; str[i] != '\0'; i++);
+    for (i = 0; str[i] != '\0'; i++)
     {
         if (str[i]>='A' && str[i]<='Z') // ASCII representation of alphabets
         {
