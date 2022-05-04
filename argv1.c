@@ -10,7 +10,7 @@
  *
  * @return 0
  */
-int main(int argc, char** argv)
+int main(int argc, char* argv[])
 {
     int i;
 
@@ -20,7 +20,7 @@ int main(int argc, char** argv)
         printf("argv[%d]: %s\n", i, argv[i]);
     }
 
-    int multiplication = 0;
+    int multiplication = 1;
     /* Multiplying all the arguments passed to the program. */
     for (i = 1; i < argc; i++)
     {
