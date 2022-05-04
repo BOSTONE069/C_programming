@@ -2,8 +2,12 @@
 #include <stdio.h>
 #include <ctype.h>
 
+/**
+ * The tolower() function converts the letter c to lower case, if possible
+ *
+ * @return The lower case of the string.
+ */
 int main()
-
 {
     char str[100];
 

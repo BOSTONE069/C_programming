@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * This function prints the numbers 0 through 18, each on a separate line
+ *
+ * @return 0
+ */
 int main ()
 {
     int i;

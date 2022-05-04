@@ -4,6 +4,16 @@
 
 float carea(float);
 
+/**
+ * The function carea() is called from the main() function.
+ *
+ * The main() function passes the value of radius to the carea() function.
+ *
+ * The carea() function calculates the area of the circle and returns the value to the main() function.
+ *
+ *
+ * The main() function prints the value of area on the screen
+ */
 int main () //This is the system defines function
 {
 	float radius;

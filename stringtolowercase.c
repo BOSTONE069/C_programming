@@ -1,6 +1,11 @@
 //This program is for converting the enteres string into lowercase
 #include <stdio.h>
 
+/**
+ * The function takes a string as input and converts all the uppercase letters to lowercase letters
+ *
+ * @return The lower case of the string
+ */
 int main()
 
 {

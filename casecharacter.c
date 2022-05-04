@@ -2,6 +2,10 @@
 // a charcter is in lowercase or uppercase using the ASCII TABLE
 #include <stdio.h>
 
+/**
+ * The function case1() takes a character as input and checks whether
+ * it is in upper case or lower case
+ */
 void case1()
 {
 	char ch;

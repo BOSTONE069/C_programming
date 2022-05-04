@@ -6,6 +6,11 @@
  *
  * Return: Always 0.
  */
+/**
+ * The variable 'p' is a pointer to the variable 'n'.
+ *
+ * @return The address of 'n' and the value of 'p'
+ */
 int main(void)
 {
   int n;

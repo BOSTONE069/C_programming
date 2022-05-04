@@ -1,6 +1,9 @@
 //This program finds the sum of the diagonal of numbers in a matrix
 #include <stdio.h>
 
+/**
+ * The function takes a matrix as input and returns the sum of the diagonal elements of the matrix
+ */
 void main()
 {
     int matrix[12][12];

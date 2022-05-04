@@ -1,6 +1,12 @@
 /*This is a program for finding the smallest number within the array*/
 #include <stdio.h>
 
+/**
+ * The function iterates through the array to find the largest number and then prints the largest
+ * number and the index of the largest number
+ *
+ * @return The largest number in the array and the index of the largest number in the array.
+ */
 int main ()
 {
 	int number_array[6];

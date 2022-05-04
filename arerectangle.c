@@ -2,6 +2,9 @@
 
 #include <stdio.h>
 
+/**
+ * The function `main()` takes no arguments, and returns an integer
+ */
 int main()
 {
     int length;

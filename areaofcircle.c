@@ -3,6 +3,11 @@
 
 #define PI 3.14
 
+/**
+ * The function `main()` is the entry point of the program
+ *
+ * @return The area of the circle.
+ */
 int main ()
 {
 	int r;

@@ -2,6 +2,11 @@
 
 #include <stdio.h>
 
+/**
+ * The function takes two matrices as input and returns the product of the two matrices
+ *
+ * @return The program is returning the product of two matrices.
+ */
 int main()
 {
     int matrixA[12][12], matrixB[12][12], matrixC[12][12];
@@ -21,6 +26,7 @@ int main()
     }
 
     printf("The matrix\n");
+    /* This is printing the matrix. */
     for (i = 0; i < row; i++)
     {
         for (j = 0; j < column; j++)
@@ -63,6 +69,7 @@ int main()
     }
 
     printf("Matrix multiplication result is:\n");
+   /* This is printing the matrix. */
     for (i = 0; i < row; i++)
     {
         for (j = 0; j < column; j++)

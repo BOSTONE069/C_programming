@@ -1,6 +1,9 @@
 //This is a program for finding the factorial number using loops
 #include <stdio.h>
 
+/**
+ * The function takes a number and prints out the factorial of that number
+ */
 void factorialnumber()
 {
 	int i;

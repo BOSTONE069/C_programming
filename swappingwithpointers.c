@@ -1,6 +1,9 @@
 // This is a program for swaping values using pointers
 #include <stdio.h>
 
+/**
+ * The function takes two integers, swaps them, and prints the swapped values
+ */
 void swap()
 {
     int x;
