@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
     /* Multiplying all the arguments passed to the program. */
     for (i = 1; i < argc; i++)
     {
-        multiplication = multiplication * atoi(argv[i]);
+        multiplication *= atoi(argv[i]);
     }
     printf("multiplication result = %d\n", multiplication);
     return 0;
