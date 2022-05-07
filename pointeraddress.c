@@ -14,6 +14,7 @@ int main(void)
 
   n = 74;
   p = &n;
+ /* Printing the address of n and the value of p and the value of p and the value of n. */
   printf("Address of 'n': %p\n", &n);
   printf("Value of 'p': %p\n", p);
   printf("The value of p: %u\n", *p);

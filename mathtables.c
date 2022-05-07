@@ -15,6 +15,7 @@ void printtables()
 	printf("Please Enter the number:\n");
 	scanf("%d", &y);
 
+	/* Printing the tables of the number entered by the user. */
 	for (x=1; x<=y; x++)
 	{
 		for (z=1; z<=10; z++)

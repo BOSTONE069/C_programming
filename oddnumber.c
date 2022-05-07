@@ -6,17 +6,18 @@ void oddnumbers()
 {
 	int y;
 	int x;
-	
+
 	printf("Please Enter the number:\n");
 	scanf("%d", &y);
-	
+
+	/* This is a for loop that is used to print the odd numbers from 1 to the given number. */
 	for (x=1; x<=y; x++)
 	{
 		if ((x % 2) != 0)
 		{
 			printf("%d\n", x);
 		}
-		
+
 	}
 }
 
