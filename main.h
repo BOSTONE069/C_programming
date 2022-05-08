@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int y;
+
+//A function that takes two integers and adds them together.
 void sum()
 {
         int x;
