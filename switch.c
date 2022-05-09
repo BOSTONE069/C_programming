@@ -7,6 +7,7 @@ int main () {
    /* local variable definition */
    char grade = 'B';
 
+   /* A switch case statement. It is used to execute one statement from multiple conditions. */
    switch(grade) {
       case 'A' :
          printf("Excellent!\n" );

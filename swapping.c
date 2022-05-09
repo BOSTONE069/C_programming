@@ -13,6 +13,7 @@ void swap()
 	printf("Enter the second value(y) here:\n");
 	scanf("%d", &y);
 
+	/* Swapping the values of x and y. */
 	z = x;
 
 	x = y;

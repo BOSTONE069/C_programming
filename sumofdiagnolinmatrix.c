@@ -15,6 +15,7 @@ void main()
     printf("Enter the number of rows and columns for the matrix:\n");
     scanf("%d%d", &row, &column);
 
+  /* Taking the input from the user and printing the matrix. */
     printf("Enter the number of elments for the matrix:\n");
     for (i = 0; i < row; i++)
     {
