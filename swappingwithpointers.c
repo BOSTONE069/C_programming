@@ -10,6 +10,7 @@ void swap()
     int y;
     int z;
 
+    /* Declaring two pointers, then assigning the address of x and y to the pointers. */
     int *ptr1;
     int *ptr2;
 
@@ -17,6 +18,8 @@ void swap()
     ptr1 = &x;
     ptr2 = &y;
 
+    /* Asking the user to enter two values, then it is swapping the values and printing the swapped
+    values. */
     printf("Enter the first value(x) here:\n");
     scanf("%d", &x);
 
