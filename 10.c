@@ -9,6 +9,7 @@ int main ()
 {
     int i;
 
+    /* Printing the numbers 0 through 18, each on a separate line. */
     for (i = 0; i <10; i++)
     {
         printf("%d", i * 2);

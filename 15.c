@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main ()
+/* It prints the numbers from 8 to 0. */
 {
     int i;
 
