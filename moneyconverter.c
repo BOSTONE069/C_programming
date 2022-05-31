@@ -26,6 +26,10 @@ int main() {
   printf("Please enter the letter you want to convert.\n");
   scanf("%c",&category);
 
+ /* This is the code for the temperature converter. It asks the user to enter a number to choose which
+ conversion they want to do. If they enter 1, it will convert Fahrenheit to Celsius. If they enter
+ 2, it will convert Celsius to Fahrenheit. If they enter anything else, it will tell them to enter
+ the correct choice. */
   if(category == 'T'){
       printf("Welcome to Temperature Converter! \n");
       printf("Here is a list of conversations to choose from: \n");
@@ -48,6 +52,16 @@ int main() {
         printf("Please enter the correct choice. \n");
   }
 
+  /**
+   * The user is prompted to enter a category, and then the user is prompted to enter a choice.
+   *
+   * The user is then prompted to enter an amount, and the amount is converted to the currency of the
+   * choice.
+   *
+   * The converted amount is then printed out.
+   *
+   * @param C Currency Converter
+   */
   else if(category == 'C') {
       printf("Welcome to Currency Converter! \n");
       printf("Here is a list of conversations to choose from: \n");
