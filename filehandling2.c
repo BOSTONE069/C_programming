@@ -32,6 +32,7 @@ int main()
         scanf("%c", &ch);
     }
 
+   /* Closing the file. */
     fclose(file);
     return 0;
 }

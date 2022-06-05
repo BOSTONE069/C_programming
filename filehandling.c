@@ -22,6 +22,7 @@ int main()
     {
         printf("%c", ch);
     }
+    /* Closing the file. */
     fclose(file);
     return 0;
 }
