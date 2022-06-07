@@ -11,9 +11,11 @@
  */
 int main()
 {
+               /* This is declaring the variables that will be used in the program. */
                 char fname[256];
                 FILE *file;
                 char ch;
+               /* This is asking the user to enter the name of the file that they want to write to. */
                 printf("Enter the name of the file to write:\n");
                 scanf("%s", &fname);
 

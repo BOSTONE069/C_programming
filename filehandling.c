@@ -9,6 +9,7 @@
  */
 int main()
 {
+           /* Declaring the variables. */
             char fname[256];
             FILE *file;
             char ch;

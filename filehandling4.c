@@ -8,6 +8,7 @@
  */
 int main()
 {
+        /* Declaring the variables. */
         char ch, source_file[100], target_file[100];
         FILE *source, *target;
 
