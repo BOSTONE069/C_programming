@@ -13,6 +13,11 @@ int factorial (int n)
 
 }
 
+/**
+ * The function takes an integer as an argument and returns the factorial of that integer
+ *
+ * @return The factorial of the number entered.
+ */
 int main()
 {
   int n;

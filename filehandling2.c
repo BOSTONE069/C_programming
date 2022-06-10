@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
-
 /**
  * This function is opening a file for writing, and then it is writing the content of the file
  *

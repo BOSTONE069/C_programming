@@ -2,8 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-
-
 /**
  * This function will open a file and append data to the end of the file
  *

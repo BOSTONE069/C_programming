@@ -8,6 +8,7 @@ int factorialnumber()
 	printf("Enter the number:\n");
 	scanf("%d", &x);
 
+    /* This is the recursive function. It is the function that is called within itself. */
     if (x <=1)
     {
     	return (1);

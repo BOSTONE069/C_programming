@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * It copies the contents of one file to another
  *
