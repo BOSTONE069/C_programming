@@ -6,6 +6,12 @@
 #define WIDTH  5
 #define NEWLINE '\n'
 
+/**
+ * The function `main()` is the entry point of the program. It is the first function that is called
+ * when the program starts
+ *
+ * @return The value of area is being returned.
+ */
 int main() {
    int area;
 
@@ -15,4 +21,3 @@ int main() {
 
    return 0;
 }
-

@@ -18,6 +18,9 @@ void factorialnumber()
 	}
 }
 
+/**
+ * It prints the factorial of a number.
+ */
 int main()
 {
 	factorialnumber();

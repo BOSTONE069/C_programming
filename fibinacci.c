@@ -2,6 +2,11 @@
 #include <stdio.h>
 
 
+/**
+ * The function takes a number from the user and prints the fibonacci series up to that number
+ *
+ * @return 0.
+ */
 int fibonacci()
 {
 	int x=0;
@@ -24,6 +29,10 @@ int fibonacci()
 	return 0;
 }
 
+/**
+ * The function fibonacci() takes no arguments and returns nothing. It prints the first 20 numbers in
+ * the Fibonacci sequence
+ */
 int main()
 {
 	fibonacci();
