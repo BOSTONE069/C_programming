@@ -20,12 +20,12 @@ int factorial (int n)
  */
 int main()
 {
-  int n;
+      int n;
 
-  printf ("Please Enter the values of x(integers only):\n");
-  scanf("%d", &n);
+      printf ("Please Enter the values of x(integers only):\n");
+      scanf("%d", &n);
 
-  printf("%d\n", factorial(n));
+      printf("%d\n", factorial(n));
 
-  return 0;
+      return 0;
 }
