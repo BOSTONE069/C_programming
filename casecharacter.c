@@ -13,6 +13,7 @@ void case1()
 	printf("Enter the Upper or lower case charater:\n");
 	scanf("%c", &ch);
 
+	/* Checking whether the character is in upper case or lower case. */
 	if (ch >=65 && ch <=90)
 	{
 		printf("The character %c is in Uppercase\n", ch);
