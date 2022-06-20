@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * It prints the numbers 0 through 9, each on a new line
+ *
+ * @return 0101010101
+ */
 int main()
 
 {
