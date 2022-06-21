@@ -3,6 +3,11 @@
 
 #define int char
 
+/**
+ * The function `main` returns an `int` and takes no arguments
+ *
+ * @return 4
+ */
 int main(void)
 {
     int i;

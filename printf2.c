@@ -4,6 +4,10 @@
 void myprintf(const char *,...);
 char* convert(unsigned int, int);
 
+/**
+ * The function myprintf() takes a string and a variable number of arguments. It then parses the string
+ * and prints the arguments in the order they appear in the string
+ */
 int main()
 {
     myprintf("www.firecode.com \n %d", 9);
@@ -75,6 +79,15 @@ void Myprintf(char *format, ...)
     va_end(arg);
 }
 
+/**
+ * The function takes an unsigned integer and a base, and returns a string representation of the number
+ * in the given base
+ *
+ * @param num The number to be converted.
+ * @param base The base to convert to.
+ *
+ * @return A pointer to the first character of the string.
+ */
 char *convert(unsigned num, int base)
 {
     static char representation[]= "0123456789ABCDEF";
