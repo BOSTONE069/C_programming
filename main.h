@@ -10,6 +10,7 @@ void sum()
 
         int sum;
 
+        // Asking the user to enter two integers and then it adds them together and prints the sum.
         printf("Enter two intergers only\n");
         scanf("%d", &x);
 
