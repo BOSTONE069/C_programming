@@ -8,7 +8,7 @@
  */
 void getarray(int arrays[])
 {
-        printf("Elements of the array are:");
+        printf("Elements of the array are:\n");
 
         for(int i = 0; i < 5; i++)
         {
