@@ -1,9 +1,12 @@
 #include <stdio.h>
 
+
 /**
- * The function returns a pointer to the first element of the array
+ * It takes an array as an argument, and returns an array
  *
- * @return The address of the first element of the array.
+ * @param array This is the array that we are passing to the function.
+ *
+ * @return The address of the array.
  */
 int *getarray(int *array)
 {
@@ -20,8 +23,9 @@ int *getarray(int *array)
         return array;
 }
 
+
 /**
- * The function getarray() returns a pointer to an array of integers
+ * The function getarray() takes an array as an argument and returns a pointer to the array
  *
  * @return The address of the first element of the array.
  */
