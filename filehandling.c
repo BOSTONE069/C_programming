@@ -10,7 +10,7 @@
 int main()
 {
            /* Declaring the variables. */
-            char fname[256];
+             char fname[256];
             FILE *file;
             char ch;
             printf("Enter the name of the file to read:\n");
